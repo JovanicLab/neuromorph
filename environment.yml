@@ -1,0 +1,16 @@
+name: neuromorph
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - matplotlib
+  - numpy
+  - ipywidgets
+  - jupyterlab
+  - plotly
+  - imageio
+  - anywidget
+  - pip
+  - pip:
+      - pymaid
+      - navis
